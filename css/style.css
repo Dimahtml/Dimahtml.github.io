@@ -2,16 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  /*font-family: "Open Sans", "Arial", sans-serif;*/
+  font-family: "Arial", sans-serif;
 }
 
-/*page-title*/
+/************* page-title *************/
 
 .page-title {
-  min-height: 300px;
-  padding-top: 150px;
+  min-height: 220px;
+  padding-top: 50px;
 
-  background-color: #6495ed;
+  background-color: teal;
   color: #ffffff;
 }
 
@@ -23,12 +23,14 @@ body {
 }
 
 .page-title__header {
+  margin-top: 0;
+
   font-size: 50px;
   line-height: 60px;
   text-transform: uppercase;
 }
 
-/*examples*/
+/************* examples *************/
 
 .examples__container {
   width: 960px;
@@ -38,12 +40,42 @@ body {
 }
 
 .examples__header {
-  color: #4682b4;
+  color: teal;
   text-transform: uppercase;
 }
 
 .examples__list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 
-  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.examples__item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.examples__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.examples__preview {
+  box-shadow: 0 0 10px 4px #aaaaaa;
+}
+
+.examples__preview:hover,
+.examples__preview:active {
+  box-shadow: 0 0 10px 4px teal;
+}
+
+/************* page-footer *************/
+
+.page-footer {
+  min-height: 60px;
+
+  background-color: teal;
 }
