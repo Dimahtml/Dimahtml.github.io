@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  /*font-family: "Open Sans", "Arial", sans-serif;*/
+}
+
+/*page-title*/
+
+.page-title {
+  min-height: 300px;
+  padding-top: 150px;
+
+  background-color: #6495ed;
+  color: #ffffff;
+}
+
+.page-title__container {
+  width: 960px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.page-title__header {
+  font-size: 50px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+/*examples*/
+
+.examples__container {
+  width: 960px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.examples__header {
+  color: #4682b4;
+  text-transform: uppercase;
+}
+
+.examples__list {
+  list-style: none;
+
+  text-align: left;
+}
